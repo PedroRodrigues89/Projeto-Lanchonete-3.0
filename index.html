@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Autour+One&display=swap" rel="stylesheet">
+
+  <title>Lanchonete Full flavor</title>
+</head>
+<body>
+
+  <!-- ÁREA DOS ÍCONES DAS REDES SOCIAIS -->
+  <div class="gradient-background">
+    <div class="container">
+      <div class="outer-container">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/pedro-rodrigues-8b447720a" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="pedrorodrigues89.github.io/Montagem-e-manuten-o.INFOPVTEC/#" target="_blank"><i class="fas fa-globe"></i></a>
+                    <a href="https://pedrorodrigues89.github.io/pagina-4/" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/pedrovanessa9/profilecard/?igsh=ZjRwdG03YTcycDdn" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://colunadofla.com/2025/03/bruno-henrique-elege-4-gols-marcantes-no-flamengo-2-sao-contra-o-vasco/"><i class="far fa-envelope"></i></a>
+                    <a href="https://wa.me/5521992081641" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i>
+                        </a>
+                </div>
+      
+        <!-- Cardápio da Lanchonete -->
+    
+        <div class="menu-container">
+</head>
+        <h1>Lanchonete Full flavor</h1>
+            <div class="menu-item">
+                <div class="item-info">
+                    <label for="cachorroQuenteQtde">Cachorro Quente (R$6,00):</label>
+                    <input type="number" id="cachorroQuenteQtde" placeholder="Qtd." />
+                </div>
+                <img src="./imagens/cachorroQuente.png" alt="Cachorro Quente">
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <label for="bauruSimplesQtde">Bauru Simples (R$12,00):</label>
+                    <input type="number" id="bauruSimplesQtde" placeholder="Qtd." />
+                </div>
+                <img src="./imagens/bauruSimples.PNG" alt="Bauru Simples" style="width: 60px; height: auto;">
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <label for="bauruComOvo">Bauru c/ Ovo (R$15,00):</label>
+                    <input type="number" id="bauruComOvoQtde" placeholder="Qtd." />
+                </div>
+                <img src="./imagens/bauruComOvo.PNG" alt="Bauru com Ovo" style="width: 60px; height: auto;">
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <label for="hamburguerQtde">Hamburguer (R$8,00):</label>
+                    <input type="number" id="hamburguerQtde" placeholder="Qtd." />
+                </div>
+                <img src="./imagens/cheeseburger.png" alt="Hamburguer">
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <label for="cheeseburgerQtde">Cheeseburger (R$9,00):</label>
+                    <input type="number" id="cheeseburgerQtde" placeholder="Qtd." />
+                </div>
+                <img src="./imagens/hambuer-.png" alt="Cheeseburger" style="width: 60px; height: auto;">
+            </div>
+
+
+           
+
+            <div class="menu-item">
+                <div class="item-info">
+                    <label for="fritasQtde">Porção de Fritas (R$12,00):</label>
+                    <input type="number" id="fritasQtde" placeholder="Qtd." />
+                </div>
+                <img src="./imagens/batataFrita.PNG" alt="fritas">
+            </div>
+
+            <div class="menu-item">
+                <div class="item-info">
+                    <label for="refrigeranteQtde">Refrigerante (R$9,50):</label>
+                    <input type="number" id="refrigeranteQtde" placeholder="Qtd." />
+                </div>
+                <img src="./imagens/refrigerante.PNG" alt="Refrigerante">
+            </div>
+
+            <!-- Botão para Calcular o Total -->
+            <button onclick="calcularTotal()">Calcular Preço</button>
+        </div>
+
+        <!-- Div para Exibir os Itens Calculados e o Total -->
+        <div class="order-summary">
+            <h2>Resumo do Pedido</h2>
+            <div id="resumoPedido"></div>
+        </div>
+    </div>
+
+   
+    <script src="./js/script.js"></script>
+    <footer>
+        Desenvolvido por <a href="https://pedrorodrigues89.github.io/pagina-4/" target="_blank">Neldson Pedro</a>, no Curso de Programador FrontEnd do Senai (2025) Todos os direitos reservados
+    </footer>
+    
+</body>
+</html>
